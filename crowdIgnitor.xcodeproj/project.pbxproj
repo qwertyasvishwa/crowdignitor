@@ -13,6 +13,9 @@
 		8449B61A1DDEFB4C0037484C /* crowdIgnitor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8449B6181DDEFB4C0037484C /* crowdIgnitor.xcdatamodeld */; };
 		8449B61C1DDEFB4C0037484C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8449B61B1DDEFB4C0037484C /* Assets.xcassets */; };
 		8449B61F1DDEFB4C0037484C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8449B61D1DDEFB4C0037484C /* LaunchScreen.storyboard */; };
+		8449B6271DDEFB590037484C /* ePitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449B6261DDEFB590037484C /* ePitchView.swift */; };
+		8449B6291DDEFB720037484C /* ePitchCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449B6281DDEFB720037484C /* ePitchCellTableViewCell.swift */; };
+		8449B62B1DDF06C70037484C /* investor_pitch.png in Resources */ = {isa = PBXBuildFile; fileRef = 8449B62A1DDF06C70037484C /* investor_pitch.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		8449B61B1DDEFB4C0037484C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8449B61E1DDEFB4C0037484C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8449B6201DDEFB4C0037484C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8449B6261DDEFB590037484C /* ePitchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ePitchView.swift; path = ../ePitchView.swift; sourceTree = "<group>"; };
+		8449B6281DDEFB720037484C /* ePitchCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ePitchCellTableViewCell.swift; sourceTree = "<group>"; };
+		8449B62A1DDF06C70037484C /* investor_pitch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = investor_pitch.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +63,13 @@
 			isa = PBXGroup;
 			children = (
 				8449B6111DDEFB4C0037484C /* AppDelegate.swift */,
+				8449B6281DDEFB720037484C /* ePitchCellTableViewCell.swift */,
 				8449B6131DDEFB4C0037484C /* ViewController.swift */,
+				8449B6261DDEFB590037484C /* ePitchView.swift */,
 				8449B6151DDEFB4C0037484C /* Main.storyboard */,
 				8449B61B1DDEFB4C0037484C /* Assets.xcassets */,
 				8449B61D1DDEFB4C0037484C /* LaunchScreen.storyboard */,
+				8449B62A1DDF06C70037484C /* investor_pitch.png */,
 				8449B6201DDEFB4C0037484C /* Info.plist */,
 				8449B6181DDEFB4C0037484C /* crowdIgnitor.xcdatamodeld */,
 			);
@@ -129,6 +138,7 @@
 			files = (
 				8449B61F1DDEFB4C0037484C /* LaunchScreen.storyboard in Resources */,
 				8449B61C1DDEFB4C0037484C /* Assets.xcassets in Resources */,
+				8449B62B1DDF06C70037484C /* investor_pitch.png in Resources */,
 				8449B6171DDEFB4C0037484C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +153,8 @@
 				8449B6141DDEFB4C0037484C /* ViewController.swift in Sources */,
 				8449B61A1DDEFB4C0037484C /* crowdIgnitor.xcdatamodeld in Sources */,
 				8449B6121DDEFB4C0037484C /* AppDelegate.swift in Sources */,
+				8449B6271DDEFB590037484C /* ePitchView.swift in Sources */,
+				8449B6291DDEFB720037484C /* ePitchCellTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
