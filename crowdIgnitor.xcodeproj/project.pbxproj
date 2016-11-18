@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8449B6121DDEFB4C0037484C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449B6111DDEFB4C0037484C /* AppDelegate.swift */; };
+		8449B6141DDEFB4C0037484C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449B6131DDEFB4C0037484C /* ViewController.swift */; };
+		8449B6171DDEFB4C0037484C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8449B6151DDEFB4C0037484C /* Main.storyboard */; };
+		8449B61A1DDEFB4C0037484C /* crowdIgnitor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8449B6181DDEFB4C0037484C /* crowdIgnitor.xcdatamodeld */; };
+		8449B61C1DDEFB4C0037484C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8449B61B1DDEFB4C0037484C /* Assets.xcassets */; };
+		8449B61F1DDEFB4C0037484C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8449B61D1DDEFB4C0037484C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8449B60E1DDEFB4C0037484C /* crowdIgnitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crowdIgnitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8449B6111DDEFB4C0037484C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8449B6131DDEFB4C0037484C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8449B6161DDEFB4C0037484C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8449B6191DDEFB4C0037484C /* crowdIgnitor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = crowdIgnitor.xcdatamodel; sourceTree = "<group>"; };
+		8449B61B1DDEFB4C0037484C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8449B61E1DDEFB4C0037484C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8449B6201DDEFB4C0037484C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8449B60B1DDEFB4C0037484C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8449B6051DDEFB4C0037484C = {
+			isa = PBXGroup;
+			children = (
+				8449B6101DDEFB4C0037484C /* crowdIgnitor */,
+				8449B60F1DDEFB4C0037484C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8449B60F1DDEFB4C0037484C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8449B60E1DDEFB4C0037484C /* crowdIgnitor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8449B6101DDEFB4C0037484C /* crowdIgnitor */ = {
+			isa = PBXGroup;
+			children = (
+				8449B6111DDEFB4C0037484C /* AppDelegate.swift */,
+				8449B6131DDEFB4C0037484C /* ViewController.swift */,
+				8449B6151DDEFB4C0037484C /* Main.storyboard */,
+				8449B61B1DDEFB4C0037484C /* Assets.xcassets */,
+				8449B61D1DDEFB4C0037484C /* LaunchScreen.storyboard */,
+				8449B6201DDEFB4C0037484C /* Info.plist */,
+				8449B6181DDEFB4C0037484C /* crowdIgnitor.xcdatamodeld */,
+			);
+			path = crowdIgnitor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8449B60D1DDEFB4C0037484C /* crowdIgnitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8449B6231DDEFB4C0037484C /* Build configuration list for PBXNativeTarget "crowdIgnitor" */;
+			buildPhases = (
+				8449B60A1DDEFB4C0037484C /* Sources */,
+				8449B60B1DDEFB4C0037484C /* Frameworks */,
+				8449B60C1DDEFB4C0037484C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = crowdIgnitor;
+			productName = crowdIgnitor;
+			productReference = 8449B60E1DDEFB4C0037484C /* crowdIgnitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8449B6061DDEFB4C0037484C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					8449B60D1DDEFB4C0037484C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2KJYZV89RZ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8449B6091DDEFB4C0037484C /* Build configuration list for PBXProject "crowdIgnitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8449B6051DDEFB4C0037484C;
+			productRefGroup = 8449B60F1DDEFB4C0037484C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8449B60D1DDEFB4C0037484C /* crowdIgnitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8449B60C1DDEFB4C0037484C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8449B61F1DDEFB4C0037484C /* LaunchScreen.storyboard in Resources */,
+				8449B61C1DDEFB4C0037484C /* Assets.xcassets in Resources */,
+				8449B6171DDEFB4C0037484C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8449B60A1DDEFB4C0037484C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8449B6141DDEFB4C0037484C /* ViewController.swift in Sources */,
+				8449B61A1DDEFB4C0037484C /* crowdIgnitor.xcdatamodeld in Sources */,
+				8449B6121DDEFB4C0037484C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8449B6151DDEFB4C0037484C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8449B6161DDEFB4C0037484C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8449B61D1DDEFB4C0037484C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8449B61E1DDEFB4C0037484C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8449B6211DDEFB4C0037484C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8449B6221DDEFB4C0037484C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8449B6241DDEFB4C0037484C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2KJYZV89RZ;
+				INFOPLIST_FILE = crowdIgnitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vishwaraj.crowdIgnitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8449B6251DDEFB4C0037484C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2KJYZV89RZ;
+				INFOPLIST_FILE = crowdIgnitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vishwaraj.crowdIgnitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8449B6091DDEFB4C0037484C /* Build configuration list for PBXProject "crowdIgnitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8449B6211DDEFB4C0037484C /* Debug */,
+				8449B6221DDEFB4C0037484C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8449B6231DDEFB4C0037484C /* Build configuration list for PBXNativeTarget "crowdIgnitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8449B6241DDEFB4C0037484C /* Debug */,
+				8449B6251DDEFB4C0037484C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8449B6181DDEFB4C0037484C /* crowdIgnitor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8449B6191DDEFB4C0037484C /* crowdIgnitor.xcdatamodel */,
+			);
+			currentVersion = 8449B6191DDEFB4C0037484C /* crowdIgnitor.xcdatamodel */;
+			path = crowdIgnitor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8449B6061DDEFB4C0037484C /* Project object */;
+}
