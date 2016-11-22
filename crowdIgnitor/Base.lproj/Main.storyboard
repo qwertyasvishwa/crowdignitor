@@ -1,116 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="f32-SN-PC9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="jZU-ZU-8Ea">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Pitch View-->
+        <scene sceneID="aOU-Qn-aG3">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="crowdIgnitor" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="umm-hz-WpX" customClass="ePitchView" customModule="crowdIgnitor" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="fQH-aF-s3R"/>
+                        <viewControllerLayoutGuide type="bottom" id="VGn-rH-qga"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <view key="view" contentMode="scaleToFill" id="FOT-EP-KgX">
+                        <rect key="frame" x="0.0" y="0.0" width="304" height="492"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-23" y="124"/>
-        </scene>
-        <!--Feed-->
-        <scene sceneID="TsS-hr-peG">
-            <objects>
-                <tableViewController id="gzE-ml-Pgo" customClass="ePitchView" customModule="crowdIgnitor" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="322" sectionHeaderHeight="28" sectionFooterHeight="28" id="L4X-2h-XPe">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CrowdIgnitor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tsT-0A-4Jn">
+                                <rect key="frame" x="24" y="466" width="256" height="18"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AI Based dating platform for investors" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ygc-Pv-XT3">
+                                <rect key="frame" x="24" y="8" width="256" height="43"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IpF-fV-haj">
+                                <rect key="frame" x="12" y="252" width="280" height="183"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="pvW-gL-8gF">
+                                        <rect key="frame" x="0.0" y="0.0" width="288" height="267"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="288" id="5aL-OY-5K3"/>
+                                            <constraint firstAttribute="height" constant="267" id="Jfh-U0-Cee"/>
+                                        </constraints>
+                                        <string key="text">What if all your investments will be managed by an AI Bot that will manage your portfolio by investing in best deals as per your interest.</string>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="pvW-gL-8gF" firstAttribute="trailing" secondItem="IpF-fV-haj" secondAttribute="trailingMargin" id="8LR-7N-6dO"/>
+                                    <constraint firstItem="pvW-gL-8gF" firstAttribute="top" secondItem="IpF-fV-haj" secondAttribute="top" id="N3v-Hi-UOc"/>
+                                    <constraint firstItem="pvW-gL-8gF" firstAttribute="leading" secondItem="IpF-fV-haj" secondAttribute="leading" id="RD4-dC-X1B"/>
+                                    <constraint firstAttribute="bottom" secondItem="pvW-gL-8gF" secondAttribute="bottom" constant="-8" id="cAo-cZ-7BK"/>
+                                </constraints>
+                            </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="investor_pitch.png" translatesAutoresizingMaskIntoConstraints="NO" id="PFI-uV-Fcm">
+                                <rect key="frame" x="16" y="116" width="264" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="hn0-yX-neu">
+                                <rect key="frame" x="87" y="78" width="36" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="36" id="ncD-nJ-FlX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOD-u3-ds5">
+                                <rect key="frame" x="268" y="37" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="8sI-2L-Kqn"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="20" id="W1R-pJ-14U"/>
+                                    <constraint firstAttribute="width" secondItem="gOD-u3-ds5" secondAttribute="height" multiplier="1:1" id="oOK-TF-Rn6"/>
+                                    <constraint firstAttribute="width" constant="20" id="v0B-E2-fwS"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="zyU-cE-5iF"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="heart.ico"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apr, 5, 2016" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qtc-nh-XTB">
+                                <rect key="frame" x="16" y="78" width="75" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="jHq-DE-LVs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TextCell" rowHeight="322" id="gMu-Ss-DFL" customClass="ePitchCellTableViewCell" customModule="crowdIgnitor" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="320" height="322"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gMu-Ss-DFL" id="Vb7-Ki-E57">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="321"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="AI Based dating platform for investors" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cfu-R7-W7g">
-                                            <rect key="frame" x="0.0" y="8" width="320" height="43"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QFa-Mb-F6F">
-                                            <rect key="frame" x="255" y="48" width="57" height="27"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal" title="Button"/>
-                                        </button>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="investor_pitch.png" translatesAutoresizingMaskIntoConstraints="NO" id="1SO-Xw-y22">
-                                            <rect key="frame" x="8" y="96" width="304" height="128"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mlo-ab-Wlp">
-                                            <rect key="frame" x="0.0" y="232" width="320" height="89"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <string key="text">What if all your investments will be managed by an AI Bot that will manage your portfolio by investing in best deals as per your interest.</string>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                </tableViewCellContentView>
-                                <connections>
-                                    <outlet property="elevatorPitch" destination="mlo-ab-Wlp" id="7JE-eF-x1W"/>
-                                    <outlet property="heading" destination="cfu-R7-W7g" id="3hU-Tu-1Cx"/>
-                                    <outlet property="pitchImage" destination="1SO-Xw-y22" id="alb-ZO-dso"/>
-                                    <outlet property="socialLikes" destination="QFa-Mb-F6F" id="8ze-Qx-fwT"/>
-                                </connections>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="gzE-ml-Pgo" id="j41-wq-7XU"/>
-                            <outlet property="delegate" destination="gzE-ml-Pgo" id="63r-Rw-Zv9"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Feed" id="qh5-XG-2Vq">
-                        <barButtonItem key="backBarButtonItem" title="Home" id="uBC-eb-hTs"/>
-                        <barButtonItem key="leftBarButtonItem" title="Home" id="LcV-FO-uRL"/>
-                    </navigationItem>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1id-BE-R0W" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1773.75" y="123.59154929577466"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="9HQ-OO-c6d">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="f32-SN-PC9" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wxO-Zm-6nP">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
+                        <constraints>
+                            <constraint firstItem="IpF-fV-haj" firstAttribute="leading" secondItem="FOT-EP-KgX" secondAttribute="leadingMargin" constant="-4" id="1aC-8Q-JVe"/>
+                            <constraint firstItem="Ygc-Pv-XT3" firstAttribute="top" secondItem="fQH-aF-s3R" secondAttribute="bottom" constant="8" id="2Cr-mT-0gM"/>
+                            <constraint firstItem="gOD-u3-ds5" firstAttribute="trailing" secondItem="Ygc-Pv-XT3" secondAttribute="trailing" constant="8" id="35K-be-gqR"/>
+                            <constraint firstItem="IpF-fV-haj" firstAttribute="top" secondItem="FOT-EP-KgX" secondAttribute="top" constant="252" id="3u8-k9-1SB"/>
+                            <constraint firstItem="IpF-fV-haj" firstAttribute="centerX" secondItem="tsT-0A-4Jn" secondAttribute="centerX" id="ARJ-4N-uog"/>
+                            <constraint firstItem="hn0-yX-neu" firstAttribute="firstBaseline" secondItem="Qtc-nh-XTB" secondAttribute="baseline" id="DZH-Fu-6SK"/>
+                            <constraint firstItem="gOD-u3-ds5" firstAttribute="top" secondItem="Ygc-Pv-XT3" secondAttribute="bottom" constant="-14" id="Fpi-H6-z6r"/>
+                            <constraint firstItem="Ygc-Pv-XT3" firstAttribute="leading" secondItem="FOT-EP-KgX" secondAttribute="leadingMargin" constant="8" id="G7O-8W-AMO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ygc-Pv-XT3" secondAttribute="trailing" constant="8" id="LzU-9l-s47"/>
+                            <constraint firstItem="VGn-rH-qga" firstAttribute="top" secondItem="tsT-0A-4Jn" secondAttribute="bottom" constant="8" id="MG5-Td-dJZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tsT-0A-4Jn" secondAttribute="trailing" constant="8" id="Tku-dK-fm4"/>
+                            <constraint firstItem="IpF-fV-haj" firstAttribute="top" secondItem="PFI-uV-Fcm" secondAttribute="bottom" constant="8" symbolic="YES" id="Via-ul-D5z"/>
+                            <constraint firstItem="tsT-0A-4Jn" firstAttribute="top" secondItem="IpF-fV-haj" secondAttribute="bottom" constant="31" id="WAf-ua-Zj1"/>
+                            <constraint firstItem="PFI-uV-Fcm" firstAttribute="top" secondItem="hn0-yX-neu" secondAttribute="bottom" constant="24" id="b1Z-ZN-NDi"/>
+                            <constraint firstItem="hn0-yX-neu" firstAttribute="top" secondItem="FOT-EP-KgX" secondAttribute="top" constant="78" id="bhi-Jr-1lx"/>
+                            <constraint firstItem="PFI-uV-Fcm" firstAttribute="leading" secondItem="FOT-EP-KgX" secondAttribute="leadingMargin" id="g5A-pz-kDO"/>
+                            <constraint firstItem="hn0-yX-neu" firstAttribute="baseline" secondItem="Qtc-nh-XTB" secondAttribute="baseline" id="kKs-a7-BUB"/>
+                            <constraint firstItem="Qtc-nh-XTB" firstAttribute="leading" secondItem="PFI-uV-Fcm" secondAttribute="leading" id="pvB-xf-lHS"/>
+                            <constraint firstItem="tsT-0A-4Jn" firstAttribute="leading" secondItem="FOT-EP-KgX" secondAttribute="leadingMargin" constant="8" id="sRF-ct-RdO"/>
+                            <constraint firstItem="hn0-yX-neu" firstAttribute="leading" secondItem="FOT-EP-KgX" secondAttribute="leadingMargin" constant="71" id="sjm-1m-Poe"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="PFI-uV-Fcm" secondAttribute="trailing" constant="8" id="wzL-HN-kee"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="OuU-Wf-1a0"/>
                     <connections>
-                        <segue destination="gzE-ml-Pgo" kind="relationship" relationship="rootViewController" id="hvE-RE-g83"/>
+                        <outlet property="companyName" destination="tsT-0A-4Jn" id="V5W-a6-qaD"/>
+                        <outlet property="elevatorPitch" destination="pvW-gL-8gF" id="AMW-E3-dm5"/>
+                        <outlet property="heading" destination="Ygc-Pv-XT3" id="sK4-z3-fnE"/>
+                        <outlet property="pitchImage" destination="PFI-uV-Fcm" id="zrL-4P-aA1"/>
+                        <outlet property="socialLikes" destination="gOD-u3-ds5" id="CPp-rR-X5O"/>
                     </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XLb-nn-1Jg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o6d-wS-Xyk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="776.25" y="123.59154929577466"/>
+            <point key="canvasLocation" x="3352.5" y="148.94366197183098"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="oNY-i9-sdE">
+            <objects>
+                <viewController id="jZU-ZU-8Ea" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bBg-gi-GOC"/>
+                        <viewControllerLayoutGuide type="bottom" id="doh-zL-zNJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ffm-Az-AdA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D5r-Mh-cMU">
+                                <rect key="frame" x="8" y="68" width="304" height="492"/>
+                                <connections>
+                                    <segue destination="umm-hz-WpX" kind="embed" id="3iL-4D-erh"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="doh-zL-zNJ" firstAttribute="top" secondItem="D5r-Mh-cMU" secondAttribute="bottom" constant="8" id="JdX-xG-KFg"/>
+                            <constraint firstItem="D5r-Mh-cMU" firstAttribute="top" secondItem="bBg-gi-GOC" secondAttribute="bottom" constant="48" id="RfX-vw-yaC"/>
+                            <constraint firstItem="D5r-Mh-cMU" firstAttribute="leading" secondItem="Ffm-Az-AdA" secondAttribute="leading" constant="8" id="bLz-wg-Jhv"/>
+                            <constraint firstAttribute="trailing" secondItem="D5r-Mh-cMU" secondAttribute="trailing" constant="8" id="mDI-wH-z9L"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="USJ-pc-TgK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="18E-PI-Y6v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2160" y="25.35211267605634"/>
         </scene>
     </scenes>
     <resources>
+        <image name="heart.ico" width="256" height="256"/>
         <image name="investor_pitch.png" width="585" height="410"/>
     </resources>
 </document>

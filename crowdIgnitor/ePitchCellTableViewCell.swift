@@ -17,6 +17,8 @@ class ePitchCellTableViewCell: UITableViewCell {
     @IBOutlet weak var elevatorPitch: UILabel!
 
     @IBOutlet weak var pitchImage: UIImageView!
+    
+    @IBOutlet weak var companyName: UILabel!
  
     
 }
